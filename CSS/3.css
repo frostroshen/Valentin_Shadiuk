@@ -1,0 +1,31 @@
+.class1 .class2 .class2{
+	color: red;
+}
+.class1 .class2 .class3{
+	color: white;
+}
+.class1 > .class2{
+	color: purple;
+}
+*{
+	background-color: green;
+}
+
+li+li{
+	color:yellow;
+}
+.class22+li{
+	color: lightblue;
+}
+.class22`li{
+	color: blue;
+}
+* li:hover {
+	color:green;
+}
+li:nth-child(2n){
+	color: brown;
+}
+.second_class:before{
+	background-color: white;
+}

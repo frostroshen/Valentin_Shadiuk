@@ -1,0 +1,39 @@
+* header{
+	background: purple; 
+}
+* main{
+	background: green; 
+	overflow: hidden;
+	padding: 5px;
+}
+.cl1{
+	width: 500px;
+	height: 500px;
+	background: orange;
+}
+.cl2{
+	width: 500px;
+	height: 500px;
+	background: blue;
+	position: relative;
+	text-align: justify;
+	overflow: hidden;	
+}
+.cl3{
+	width: 500px;
+	height: 500px;
+	background: red;
+	position: absolute;
+	top: 300px;
+	float: right;
+}
+ul li{
+	float: left;
+	list-style-type: none;
+}
+ul li:first-child{
+	float: right;
+}
+ul{
+	float: right;
+}

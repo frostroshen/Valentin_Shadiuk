@@ -1,0 +1,14 @@
+ * img{
+ 	margin: 0px 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+ 	width: 1920px;
+ }
+ * ul{
+ 	letter-spacing: 2px;
+ }
+ * li {
+ 	display: inline-block;
+ 	border: 1px solid #000;
+ 	letter-spacing: normal;
+ }
