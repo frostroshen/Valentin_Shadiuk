@@ -1,0 +1,104 @@
+.roofs {
+	z-index: 20;
+	position: relative;
+}
+.roof2 {
+	width: 0;
+	height: 0;
+	top: 100px;
+	left: 75px;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 70px solid brown;
+	position: relative;
+}
+.roof1 {
+	width: 0;
+	height: 0;
+	top: 190px;
+	left: 310px;
+	border-left: 170px solid transparent;
+	border-right: 170px solid transparent;
+	border-bottom: 60px solid brown;
+	position: relative;
+}
+.walls{
+	position: relative;
+	z-index: 10;
+}
+.wall1{
+	width: 250px;
+	height: 220px;
+	left: 100px;
+	top: 100px;
+	background-color: #A9A9A9;
+	position: relative;
+}
+.wall2{
+	width: 270px;
+	height: 200px;
+	background-color: #A9A9A9;
+	top: -100px;
+	left: 340px;
+	position: relative;
+
+}
+.windows{
+	position: relative;
+	z-index: 50;
+}
+.window1{
+	border: 2px solid #D2691E;
+	width: 50px;
+	height: 65px;
+	background-color: #F0FFFF;
+	top: -370px;
+	left: 140px;
+	position: relative; 	
+}
+.window2{
+	border: 2px solid #D2691E;
+	width: 50px;
+	height: 65px;
+	background-color: #F0FFFF;
+	top: -350px;
+	left: 140px;
+	position: relative;
+}
+.window3{
+	border: 2px solid #D2691E;
+	width: 50px;
+	height: 65px;
+	background-color: #F0FFFF;
+	top: -508px;
+	left: 260px;
+	position: relative;
+}
+.door{
+	width: 50px;
+	height: 80px;
+	background-color: #A0522D;
+	top: -180px;
+	left: 260px;
+	position: relative;
+	z-index: 15;	
+}
+.garage{
+	width: 170px;
+	height: 150px;
+	background-color: #A0522D;
+	top: -537px;
+	left: 400px;
+	position: relative;
+	z-index: 15;		
+}
+.garage_window{
+	border: 2px solid #D2691E;
+	width: 130px;
+	height: 20px;
+	background-color: #F0FFFF;
+	top: 6px;
+	left: 18px;
+	position: relative;
+	z-index: 17;		
+}
