@@ -1,0 +1,14 @@
+body {
+    display: block;
+    border: 10px solid black;
+    width: 400px;
+    height: 200px;
+} 
+@media screen and (min-width: 1900px) {
+    body {
+            display: block;
+    		border: 10px solid black;
+    		width: 200px;
+    		height: 400px;
+    }
+}
