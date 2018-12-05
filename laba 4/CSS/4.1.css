@@ -2,7 +2,8 @@
 	width: 150%;
 }
 .text_h{
-	margin-right: 6%; 
+	width: 50%;
+	margin-right: 120px; 
 	z-index: 10;
 }
 .unh_text{
@@ -16,8 +17,7 @@ body{
 	background-color: white; 
 }
 .text_head{
-	margin-left: -35%;
-	margin-top:18%;
+	position: relative;
 	align-items: center;
 	z-index: 100;
 	display: flex;
@@ -35,28 +35,6 @@ body{
 	margin-right: 0%;
 	margin-top: 0%;
 	margin-bottom: 20%;  
-}
-.midle{ 
-	z-index: 11;
-	position: absolute;
-	width: 100%;
-	left: 0%;
-	top:100%;
-	bottom: 100%;
-}
-footer{
-	object-fit: contain;
-	position: absolute;
-	background-color: #333333;
-	width: 100%;
-	left: 0%;
-	top:150%; 
-	bottom: 0%;
-	min-height: calc(10vh - 8px);
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
 }
 .back_p{
 	background-image: url(../img/4.1.1.png);
@@ -76,7 +54,7 @@ footer{
 	padding-left: 14%;
 }
 .img3{
-	padding-left: -50%; 
+	padding-left: -45%; 
 }
 .boxes{
 	display: flex;
@@ -86,7 +64,6 @@ footer{
 	align-items: justify;
 	width: 90%;
 	height: 42px;
-	padding-left: 10px;
 	border: 2px solid #333333;
 	outline: none;
 	background: white;
@@ -97,7 +74,6 @@ footer{
 	margin:4%; 
 	width: 90%;
 	height: 42px;
-	padding-left: 10px;
 	border: 2px solid #333333;
 	outline: none;
 	background: white;
@@ -108,7 +84,6 @@ footer{
 	margin:4%; 
 	width: 90%;
 	height: 42px;
-	padding-left: 10px;
 	border: 2px solid #333333;
 	outline: none;
 	background: white;
@@ -117,10 +92,9 @@ footer{
 }
 .d4 input {
 	margin:4%;
-	margin-top: 20%; 
+	margin-top: 0%; 
 	width:90%;
 	height: 42px;
-	padding-left: 10px;
 	border: 2px solid #333333;
 	outline: none;
 	background: white;
@@ -128,12 +102,12 @@ footer{
 	font-size:20px;
 }
 .panel{
-	margin-top: -25%;
-	margin-left: 62%;
-	width: 21%;
-	height:50%;
+	overflow: auto;
+	padding: 0px;
+	width: 30%;
+	height:63%;
 	background: #333333;
-	position: absolute;
+	position: relative;
 	z-index: 200;
 }
 .line_side{
@@ -143,8 +117,8 @@ footer{
 }
 .panel_text{ 
 	padding: 5%;
-	padding-top: 57%;
-	position: absolute;
+	padding-top: 0%;
+	position: relative;
 	color:white;
 	font-size: 20px;
 	margin: 0;
@@ -163,7 +137,7 @@ li a{
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 100px;
     text-decoration: none;
 }
 .buttoms{
@@ -175,10 +149,104 @@ li a{
 }
 .reg_buttom{
 	margin:4%;
-	display: inline-block;
+	margin-top: 0; 
 	color:#333333;
-	top:-5%;
 	text-align: center;
 	background: #ff6600;
-	font-size:25px; 
+	font-size:30px; 
+	margin-top: 1%;
+	margin-right: 5%;
+}
+.midle{ 
+	z-index: 11;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0%;
+	top:100%;
+	bottom: 100%;
+}
+.boxes{
+	flex-wrap: wrap;
+	margin-top:5%; 
+	overflow: auto;
+	display: flex;
+	z-index: 250;
+	align-items: row;
+	justify-content: space-around;
+}
+.box1, .box2, .box3, .box4{
+	text-align: center;
+	width: 8.5%;
+	height: 15%;
+}
+.lol{
+	min-height: calc(100vh - 80px);
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: column;
+	align-items: center;
+}
+body{
+	min-height: calc(100vh - 80px);
+}
+.midle{
+	position: relative;
+	margin-top: 10%;
+	display: flex;
+	text-align: center;
+	width: 30%;
+	left: 35%;
+	right: 35%; 
+	justify-content: center;
+	flex-direction: column;
+
+}
+footer{
+	overflow: auto;
+	object-fit: contain;
+	position: relative;
+	background-color: #333333;
+	align-items: center;
+	margin-top:10%;
+	width: 101.4%;
+	height: 16%;
+	left: -1%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left:0%;
+	margin-bottom: -1%;  
+	bottom: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 0%;
+}
+h1{
+	color: #00a8b2;	
+}
+h2{
+	color:#00a8b2; 
+}
+.midle>p{
+	text-align: justify;
+}
+@media screen and (max-width: 1200px) {
+    .boxes, .lol {   
+        flex-direction: column;
+    }
+    .boxes{
+    	flex-wrap: wrap; 
+    	justify-content: center;
+    	align-items: center;
+    }
+    .panel{
+    	width: 56.2%;
+    }
+    footer{
+    	width: 100%;	
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    }
 }
