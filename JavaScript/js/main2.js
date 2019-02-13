@@ -1,0 +1,1 @@
+console.log((" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at.".match(/a/g) || []).length);
