@@ -2,7 +2,7 @@ var arr1 = [];
 var t =' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at.';
 for (var i = 0; i <= t.length-1; i++ ){
         var b = arr1.push(t.indexOf('a',i));
-}
+};
 function doSmth(arr1) {
   for (var q=1, j=1; q<arr1.length; ++q) {
     if (arr1[q] !== arr1[q-1]) {
@@ -12,5 +12,7 @@ function doSmth(arr1) {
 
   arr1.length = j;
   return arr1;
-}
-console.log(doSmth(arr1))
+};
+doSmth(arr1)
+arr1.pop()
+console.log(arr1)
